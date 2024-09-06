@@ -6,10 +6,10 @@ const currentUrl = document.querySelector(".currentUrl");
 btn.addEventListener("click",async()=>{
 
 // Assign the static URL to the variable
-    const url = 'https://i.pinimg.com/originals/90/c7/eb/90c7eba88ed33f07b7c3d98f9e0f203f.gif';
+    // const url = 'https://i.pinimg.com/originals/90/c7/eb/90c7eba88ed33f07b7c3d98f9e0f203f.gif';
 
-    // Change the background image of the page or an element
-    document.body.style.backgroundImage = `url(${url})`;
+    // // Change the background image of the page or an element
+    // document.body.style.backgroundImage = `url(${url})`;
 
 
  chrome.storage.sync.get('color',({color})=>{
